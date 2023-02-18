@@ -1,20 +1,32 @@
 def collatz(number):
-    ##check if the number is even or odd and performs calculations.
-    
-    if number % 2  == 0: # even
-        print(number // 2)
-        return number //2
-    elif number % 2 != 0: # odd 
-        result = 3*number+1
-        print(result)
-        return result
+    if(number%2==0):
+        n=number//2
+        print(n)
+        return n
+    else:
+        ev=3*number+1
+        print(ev)
+        return ev
+num1=input("Enter an integer greater than 1: \n")
 
+#prevents user from entering 1 and negative numbers
 try:
-    n = input('Enter number: ') # takes user input
-    while n !=1: # performs while loop until 'n' becomes 1
-        n = collatz(int(n)) # passes 'n' to collatz() function until it arrives at '1'
-except ValueError:
-    print('Value Error. Please enter integer.')
+    num= int(num1)
+    if(num==1):
+        print("Enter an integer greater than 1")
+    elif(num>1):
+        a=collatz(num) 
+        while(True):
+            if(a==1):
+                break
+            else:
+                a=collatz(a)
+    else:
+        print("Please, Enter a positive integer to begin the Collatz sequence")
+
+#asks user to only input integers and ends programme if not
+except:
+    print("Please, enter an integer")
 
 
 
