@@ -27,17 +27,3 @@ try:
 #asks user to only input integers and ends programme if not
 except:
     print("Please, enter an integer")
-
-
-
-
-        
-  
-
-
-
-
-
-
-
-            
