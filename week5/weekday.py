@@ -15,7 +15,5 @@ dayasnumber = datetime.datetime.today().weekday()
 # Assigining intergers to days of week
 weekdays = {0:Monday,1:Tuesday, 2:Wednesday, 
             3:Thursday,4:Friday,5:Saturday,6:Sunday}
-
+# printing out the result
 print (weekdays[dayasnumber])
-
-
