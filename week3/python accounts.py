@@ -1,5 +1,9 @@
-accountno = input('please enter your account number')
-print(f"xxxxxx"+accountno[6:11])
+accountnumber = str(input("enter your 10 degit account number: "))
+
+final = accountnumber[-4:]
+
+print(f"xxxxxx{final}")
+
 
 
 
