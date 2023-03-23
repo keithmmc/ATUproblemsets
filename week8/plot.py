@@ -41,5 +41,10 @@ plt.show()
 
 
 
-    
+##https://numpy.org/doc/stable/reference/generated/numpy.arange.html
+##https://www.w3schools.com/python/matplotlib_line.asp
+##https://www.w3schools.com/python/matplotlib_labels.asp
+##https://youtu.be/yj31agJRBoI 
+
+  
 
