@@ -1,3 +1,4 @@
+#checks if number is even or odd and defines calculation
 def collatz(number):
     if(number%2==0):
         n=number//2
@@ -27,3 +28,10 @@ try:
 #asks user to only input integers and ends programme if not
 except:
     print("Please, enter an integer")
+
+
+##https://codippa.com/even-odd-python/
+##https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print
+##. https://www.pythonpool.com/collatz-sequence-python/
+##https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/
+##https://youtu.be/tYQCfYqFa4E
