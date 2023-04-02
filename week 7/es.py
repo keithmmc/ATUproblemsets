@@ -16,3 +16,7 @@ with open(filename, 'r') as f:
 #print the occurrences of the letter 
 print("Occurrences of the letter:")
 print(k)
+
+#https://youtu.be/QJBVjBq4c7E
+#https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
+#https://www.sanfoundry.com/python-program-read-file-counts-number/
