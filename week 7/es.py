@@ -1,10 +1,18 @@
-#attampt number one
-#open the file mobydick.txt and read it 
-f = open("mobydick.txt", "r")
-#reading the data
-data = f.read()
-#getting all occurrences of e
-occurrences = data.count("e")
-#printing the result
-print('Number of occurences of the letter e is:', occurrences)
-#error opening file (need to research problem some more to find this solution)
+import sys 
+#asking the user to input the file for searching
+filename = input("Enter file name: ")
+#asking the user to enter the letter to be searched
+l=input("Enter letter to be searched:")
+k = 0
+ #opens the text file
+with open(filename, 'r') as f:
+    for line in f:
+        words = line.split()
+# splits line to get list of words
+        for i in words:
+            for letter in i:
+                if(letter==l):
+                    k=k+1
+#print the occurrences of the letter 
+print("Occurrences of the letter:")
+print(k)
