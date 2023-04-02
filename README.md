@@ -14,7 +14,7 @@ this problem asked the following, .
 
 Write a python program that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs) 
 to solve this I started by asking the user to enter a 10 degit number. that created a string from the the input. 
-I then created another string and then [-4:] this would splice the first 6 numbers from the account number. to test this I used the following the sequence enter your 10 degit account number: 2345678910
+I then created another string and then used [-4:] this would splice the first 6 numbers from the account number. to test this I used the following the sequence enter your 10 degit account number: 2345678910
 I then used a test print statement to print the last 6 digits. which gave me 8910.
 I then printed  6 x's with the string{final} to display the final four digits as xxxxxx8901 
 
