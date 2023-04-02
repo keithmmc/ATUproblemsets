@@ -1,3 +1,5 @@
+#importing the datetime module to extract today's date.
+
 import datetime 
 
 # Assigning either yes unfortunately or yay weekend
@@ -17,3 +19,8 @@ weekdays = {0:Monday,1:Tuesday, 2:Wednesday,
             3:Thursday,4:Friday,5:Saturday,6:Sunday}
 # printing out the result
 print (weekdays[dayasnumber])
+
+##https://www.geeksforgeeks.org/python-datetime-module/
+##https://docs.python.org/3/library/datetime.html?highlight=datetime%20module
+##https://pythontic.com/datetime/date/weekday
+##https://stackoverflow.com/questions/16348815/python-assigning-multiple-variables-to-same-value-list-behavior
