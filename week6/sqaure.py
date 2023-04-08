@@ -1,18 +1,27 @@
-# create a fucntion 
+# Obtaining the number from the user.
+num = float(input("PLease enter a number:"))
 
-def sqrt(userinput):
-    # convert from str to float 
-    userinput = float (userinput) 
-    r = userinput
-    precision = 10 ** (-10)
+# create a function called sqrt that takes an example 'num'
+def sqrt(num):
+    # getting a loose approximation of the sqaure root by dividing the number in half
+    approx = num * 0.5
+    # Use Newtons method to get a better estimation of the square root
+    better = (0.5 * (approx + (num/approx)))
     
-    while abs(userinput - r * r) > precision:
-        r = (r + userinput / r) / 2
-        
-    return round(r,1)
-# getting the user input for a postive number 
-userinput = input("Please enter a positive number:")
-print("The square root of", userinput, "is approx." , sqrt(userinput))
+    # Use a while loop with a condition that compares the two results
+    # and continues to iterate through results.  
+    # The difference between the two should tend towards 0
+    # Once the difference is insignificant the while loop will stop and return
+    # the best approximation as the square root.
+    while better != approx:
+        approx = better
+        better = (0.5 * (approx + (num/approx)))
+    return better
+
+    
+print("The square root of " + str(num) + " is approx: " + str(sqrt(num))) 
+    
+
 
     
     
