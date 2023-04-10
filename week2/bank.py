@@ -1,18 +1,13 @@
 #print statement to introduce problem
 print("welcome to the balance calculator")
-
-#asking the user to input there name
 var = input('what is your name')
-# take inputs
-num1 = float(input('Enter first amount in cents: '))
-num2 = float(input('Enter second amount in cents: '))
-
-# adding numbers
-sum = num1 + num2
-
-
-# calculate sum of numbers
-('total amount of {0} and {1} {2}' .format(num1, num2,sum))
-
-# print sum plus user input 
-print(f"{var} your balance is \u20ac", sum)
+print(f"'welcome to the balance calulator' {var}")
+# Prompt user for two money amounts (in cent)24
+amount1 = int(input("Enter the first amount (in cents):\t "))
+amount2 = int(input("Enter the second amount (in cents):\t "))
+# Add the two amounts and divide sum by 100 to convert cents to euros
+eur = (amount1+amount2)/100
+# Display result in requested format
+print(f'{var}your total balance is: \t\t\t€{eur}')
+#closing print statement 
+print(f"'thanks for using the balance calulator'{var}")
