@@ -50,7 +50,7 @@ I then used the number 9 to test this sequence. the sequence ran as follows 9 28
 
 this programme will output whether the current day is a weekday or not. To do this I imported the date time module in python, this module gets the current date and time, it will then get the current day and print weather it is a weekday or a weekend. 
 
-# heading 1 problem 6 sqaure root #
+#  problem 6 sqaure root #
 I first asked the user for the input and converted it to a float.
 
 I then made a function, which takes the number and got an approximate estimation of the square root by diving it in half.
