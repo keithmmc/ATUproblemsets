@@ -1,4 +1,15 @@
 # ATUproblemsets
+
+# table of contents # 
+
+# 1. helloworld.py
+# 2. bank.py 
+# 3. accounts.py
+# 4. collatz.py
+# 5. weekday.py
+# 6. sqaure.py
+# 7. es.py
+# 8. plot.py 
 #  problem 1 print hello world #
 
 
@@ -43,7 +54,6 @@ n = n * 3 + 1 This calculation was done if the number was not even. The answer w
 Then I wrote the following to print out the answer at the end of the program. print("Sequence: ", end= '')
 I used the number 34 as the first test integer so the sequence the sequence ran as 34 17 52 26 13 40n 20 10 5 16 8 4 2 1. 
 I then used the number 9 to test this sequence. the sequence ran as follows 9 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
-
 
 
 #  problem 5 weekday #
