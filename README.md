@@ -2,14 +2,14 @@
 
 # table of contents # 
 
-# 1. helloworld.py
-# 2. bank.py 
-# 3. accounts.py
-# 4. collatz.py
-# 5. weekday.py
-# 6. sqaure.py
-# 7. es.py
-# 8. plot.py 
+ 1. helloworld.py
+ 2. bank.py 
+ 3. accounts.py
+ 4. collatz.py
+ 5. weekday.py
+ 6. sqaure.py
+ 7. es.py
+ 8. plot.py 
 #  problem 1 print hello world #
 
 
