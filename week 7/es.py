@@ -1,20 +1,15 @@
-import sys 
-
+#import system 
+import sys   
+#take command line argument                                
 filename = sys.argv[1]
-
-try:
-    with open(filename,'r') as f:
-       text = f.read()
-       count = 0
-       for i in text:
-         if (i == "e"or i =="E"):
-            count +=1
-       print(count)
-
-except FileNotFoundError:
-   print("filename (", filename,") does not exist. Please re-run and enter a valid filename", sep = '')
-
-
+#reading the filename
+with open(filename, 'r') as f:
+#reading the contents of the file
+    e = f.read()     
+#counting the upper and lower case letters                      
+    count = e.count('e') + e.count('E')     
+#printing the amount of times e shows up 
+    print(f"The letter 'e' shows up {count} times")
 
 
 # https://www.youtube.com/watch?v=decAHMKIo_A 
