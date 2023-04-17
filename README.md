@@ -23,9 +23,13 @@ helloworld  keith
 
 the program should:
 
+# <P>
+
 Prompt the user and read in two money amounts (in cent)
 Add the two amounts
 Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
+
+# <p>
 
 to slove this i first introduced the problem using a print statement to welcome the user to the balance calculator and asking the user to input there name as a varable this varable is used again in the progamme when recalling the total balance. I then set up two varables called amount 1 and amount 2. when the user inputs both of these amounts the program adds them togather and also divides the sum by 100. this converts the cents value into euro. and gives the output telling the user what there total balance is, this output has a decimal sign between the euro and cent ensuring it is in the right format. to test this if you input amount one as 245 and amount 2 as 130. your result should be your name followed by your total balance 3.75 with the euro sign. to close off the problem I used another print statement to thank the user for using the balance calaualtor and outputting the users name.
 
