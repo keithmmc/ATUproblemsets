@@ -72,7 +72,7 @@ By using a while loop, the approximate and better approximations were compared u
 I tested this program using 10 as a input which returned 3.16 as the sqaure root. 
 I also used 12 as an input to test this which gave 3.4 as the sqaure root. 
 
-# 6 reading the occurances of e in a file
+# 7 reading the occurances of e in a file
 
 this program will read a text file and outputs the number of e's it contains. The program should take the filename from an argument on the command line
 
