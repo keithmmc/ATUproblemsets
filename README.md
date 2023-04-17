@@ -72,4 +72,18 @@ By using a while loop, the approximate and better approximations were compared u
 I tested this program using 10 as a input which returned 3.16 as the sqaure root. 
 I also used 12 as an input to test this which gave 3.4 as the sqaure root. 
 
-# #
+# 6 reading the occurances of e in a file
+
+this program will read a text file and outputs the number of e's it contains. The program should take the filename from an argument on the command line
+
+# <p>
+I started with importing the sys module and used sys.argv, a list which contains the command-line arguments passed to the script. It allows taking in an input from an argument on the command line. The sys.argv[0] is the script itself, while the sys.argv[1] is the argument on the command line. Assumption here is that the name of the file the user wants to work with, follows the name of the script, i.e. its position in the list of arguments on the command line is [1].
+This argument is stored as a variable filename that is taken in by the custom function countEs defined in the subsequent lines.
+# <p>
+In order to get access and manipulate or read from a file, the file needs to be opened. It is achieved by using the open() function that returns a file object. Next, the read() function is used to read from the file object.
+The countEs() function is set to return the total number of es in the file despite their case, as well as a number of lower- and uppercase es. Each value is stored as a separate variable. Initially, the value of all three variables is 0.
+# <p>
+Using the for loop, each character in the file is checked and cross-referenced with the conditions defined under the if/elif statement. Every time lower or upper case e is encountered, +1 is added to the respective variable, as well as the variable storing total number of es, and the values stored under these variables are updated to reflect the current state of the counter. The function returns all three variables as a list. 
+
+
+The function is called and each value from the generated list is assigned a variable then used in the output message.
