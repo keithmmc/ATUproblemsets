@@ -11,7 +11,7 @@ Friday = "Yes, unfortunately today is a weekday."
 Saturday = "It is the weekend, yay!"
 Sunday = "It is the weekend, yay!"
 
-# Make day of week into integer
+# Making day of week into integer
 dayasnumber = datetime.datetime.today().weekday()
 
 # Assigining intergers to days of week
