@@ -19,11 +19,13 @@ what is your name keith
 this will then been displayed with hello world 
 helloworld  keith
 
-#  problem 2 bank  #
+#  problem 2 bank statements #
 
 the program should:
 
-# <P>
+The program should:
+
+
 
 Prompt the user and read in two money amounts (in cent)
 Add the two amounts
@@ -33,7 +35,7 @@ Print out the answer in a human readable format with a euro sign and decimal poi
 
 to slove this i first introduced the problem using a print statement to welcome the user to the balance calculator and asking the user to input there name as a varable this varable is used again in the progamme when recalling the total balance. I then set up two varables called amount 1 and amount 2. when the user inputs both of these amounts the program adds them togather and also divides the sum by 100. this converts the cents value into euro. and gives the output telling the user what there total balance is, this output has a decimal sign between the euro and cent ensuring it is in the right format. to test this if you input amount one as 245 and amount 2 as 130. your result should be your name followed by your total balance 3.75 with the euro sign. to close off the problem I used another print statement to thank the user for using the balance calaualtor and outputting the users name.
 
-#  problem 3 account number #
+#  problem 3 account number state  variables #
 
 this problem asked the following, .
 # <p>
@@ -48,6 +50,10 @@ I then printed  6 x's with the string{final} to display the final four digits as
  
  
  #  Problem Number 4 controlling the flow #
+
+ this programme asked the following,
+ 
+  Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation. Have the program end if the current value is one
  # <p>
 "The Collatz conjecture is a conjecture that a particular sequence always reaches 1. my program checks for a postive number to be entered. if the user does not enter a postive number the program will throw an exception. 
 # <p>
@@ -56,11 +62,15 @@ I then used the number 9 to test this sequence. the sequence ran as follows 9 28
 I also used 0 as a input, when zero is entered it will print that the input is invalid. 
 
 
-#  problem 5 weekday #
+#  problem 5 data structures weekday #
 
 this programme will output whether the current day is a weekday or not. To do this I imported the date time module in python, this module gets the current date and time, it will then get the current day and print weather it is a weekday or a weekend. 
 
-#  problem 6 sqaure root #
+#  problem 6 functions sqaure root #
+
+this program asked to write a program that takes a positive floating-point number as input and outputs an approximation of its square root. 
+
+# <p>
 I first asked the user for the input and converted it to a float.
 
 I then made a function, which takes the number and got an approximate estimation of the square root by diving it in half.
@@ -72,9 +82,10 @@ By using a while loop, the approximate and better approximations were compared u
 I tested this program using 10 as a input which returned 3.16 as the sqaure root. 
 I also used 12 as an input to test this which gave 3.4 as the sqaure root. 
 
-# 7 reading the occurances of e in a file
+# 7 files reading the occurances of e in a file #
 
-this program will read a text file and outputs the number of e's it contains. The program should take the filename from an argument on the command line
+Write a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here
+
 
 # <p>
 I started with importing the sys module and used sys.argv, a list which contains the command-line arguments passed to the script. It allows taking in an input from an argument on the command line. The sys.argv[0] is the script itself, while the sys.argv[1] is the argument on the command line. Assumption here is that the name of the file the user wants to work with, follows the name of the script, i.e. its position in the list of arguments on the command line is [1].
@@ -87,3 +98,20 @@ Using the for loop, each character in the file is checked and cross-referenced w
 
 
 The function is called and each value from the generated list is assigned a variable then used in the output message.
+
+# week 8 plots 
+
+create a program that creates a histogram plot using python. 
+
+# <p>
+
+to begin this task I downloaded the numpy module this is a libray that is used for working with arrays. and I also downloaded the matplotlib module. this is used for the visualistion of arrays and works with matplotlib. 
+
+# <p> 
+
+ I created a histogram from the numbers the program randomly generates. As it follows, the values in the brackets are the mean, standard deviation and number of values. Once the histogram is made, the function h(x) = x ^ 3 is plotted on the same graph. The function ranges from 1 to 10. using numpy 
+
+ # <p>
+
+The functions title(), xlabel() and ylabel() were taken from the matplotlip.pyplot library to label the plot. I also added two labels one for value and one for frequency and set custom color and font for the plot. 
+
