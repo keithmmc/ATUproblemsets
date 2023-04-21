@@ -1,7 +1,7 @@
 # Obtaining the number from the user.
 num = float(input("PLease enter a number:"))
 
-# create a function called sqrt that takes an example 'num'
+# creating a function called sqrt that takes an example 'num'
 def sqrt(num):
     # getting a loose approximation of the sqaure root by dividing the number in half
     approx = num * 0.5
@@ -18,7 +18,7 @@ def sqrt(num):
         better = (0.5 * (approx + (num/approx)))
     return better
 
-    
+#using a print statement to return the results
 print("The square root of " + str(num) + " is approx: " + str(sqrt(num))) 
     
 
