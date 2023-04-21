@@ -1,8 +1,8 @@
 
-#asking the user to input a string to calulate a 10 degit account number 
+# beginning the programme by asking the user to input a string to calulate a 10 degit account number 
 accountnumber = str(input("enter your 10 degit account number: "))
 
-#get the final four degits of the account number 
+#getting the final four degits of the account number 
 final = accountnumber[-4:]
 ##using the following to test the above line of code has worked
 ##print(f"{final}")
