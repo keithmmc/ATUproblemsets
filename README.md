@@ -13,7 +13,7 @@
 #  problem 1 print hello world #
 
 
-this is a the first piece of code people learn when starting to code, in order to make this code do a little bit more I added a variable called input that asks for the user name
+this is  the first piece of code people learn when starting to code, in order to make this code do a little bit more I added a variable called input that asks for the user name
 what is your name 
 what is your name keith 
 this will then been displayed with hello world 
@@ -22,8 +22,6 @@ helloworld  keith
 #  problem 2 bank statements #
 
 the program should:
-
-The program should:
 
 
 
