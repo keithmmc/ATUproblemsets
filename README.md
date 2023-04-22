@@ -35,8 +35,8 @@ to slove this i first introduced the problem using a print statement to welcome 
 
 #  problem 3 account number state  variables #
 
-this problem asked the following, .
-# <p>
+this problem asked the following, 
+
 Write a python program that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs) 
 to solve this I started by asking the user to enter a 10 degit number. that created a string from the the input. 
 # <p>
