@@ -52,7 +52,6 @@ I then printed  6 x's with the string{final} to display the final four digits as
  this programme asked the following,
  
   Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation. Have the program end if the current value is one
- # <p>
 "The Collatz conjecture is a conjecture that a particular sequence always reaches 1. my program checks for a postive number to be entered. if the user does not enter a postive number the program will throw an exception. 
 # <p>
 I used the number 34 as the first test integer so the sequence the sequence ran as 34 17 52 26 13 40n 20 10 5 16 8 4 2 1. 
