@@ -18,7 +18,7 @@ def countEs(filename):
                 numTotal += 1                
                 # numTotal counts every instance of 'e' in the file despite of its case.
         return(numLower, numUpper, numTotal)
-# Function countEs() returns multiple values stored as a tuple.
+#Function countEs() returning the values
 values = countEs(filename)   
 lower = values [0] 
 upper = values [1]
