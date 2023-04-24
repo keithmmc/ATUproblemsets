@@ -63,7 +63,7 @@ https://www.pythontutorial.net/advanced-python/python-slicing/
  
   Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation. You have the program end if the current value is one
  # <p>
-"The Collatz conjecture is a conjecture that a particular sequence always reaches 1. My programme checks for a postive number to be entered. If the user does not enter a postive number the program will throw an exception. 
+The Collatz conjecture is a conjecture that a particular sequence always reaches 1. My programme checks for a postive number to be entered. If the user does not enter a postive number the program will throw an exception. 
 # <p>
 I used the number 34 as the first test integer so the sequence the sequence ran as 34 17 52 26 13 40n 20 10 5 16 8 4 2 1. 
 I then used the number 9 to test this sequence. the sequence ran as follows 9 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
