@@ -13,7 +13,7 @@
 #  problem 1 print hello world #
 
 
-this is a the first piece of code people learn when starting to code, in order to make this code do a little bit more I added a variable called input that asks for the user name
+this is  the first piece of code people learn when starting to code, in order to make this code do a little bit more I added a variable called input that asks for the user name
 what is your name 
 what is your name keith 
 this will then been displayed with hello world 
@@ -25,6 +25,10 @@ https://github.com/git-guides/git-commit
 #  problem 2 bank statements #
 
 the program should:
+
+The program should:
+
+
 
 Prompt the user and read in two money amounts (in cent)
 Add the two amounts
@@ -42,8 +46,8 @@ https://python.land/python-data-types/python-float
 
 #  problem 3 account number state  variables #
 
-this problem asked the following, .
-# <p>
+this problem asked the following, 
+
 Write a python program that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs) 
 to solve this I started by asking the user to enter a 10 digit number. that created a string from the the input. 
 # <p>
@@ -64,8 +68,7 @@ https://www.pythontutorial.net/advanced-python/python-slicing/
  
   Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation. Have the program end if the current value is one
  # <p>
-"The Collatz conjecture is one of the most famous unsolved problems in mathematics. The conjecture asks whether repeating two simple arithmetic operations will eventually transform every positive integer into 1" 
-
+"The Collatz conjecture is a conjecture that a particular sequence always reaches 1. my program checks for a postive number to be entered. if the user does not enter a postive number the program will throw an exception. 
 # <p>
 I used the number 34 as the first test integer so the sequence the sequence ran as 34 17 52 26 13 40n 20 10 5 16 8 4 2 1. 
 I then used the number 9 to test this sequence. the sequence ran as follows 9 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
