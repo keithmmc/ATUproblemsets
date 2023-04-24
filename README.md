@@ -10,6 +10,9 @@
  6. sqaure.py
  7. es.py
  8. plot.py 
+
+
+
 #  problem 1 print hello world #
 
 
@@ -28,7 +31,7 @@ Print out the answer in a human readable format with a euro sign and decimal poi
 
 # <p>
 
-to slove this i first introduced the problem using a print statement to welcome the user to the balance calculator and asking the user to input there name as a variable this variable is used again in the progame when recalling the total balance. I then set up two variables called amount 1 and amount 2. when the user inputs both of these amounts the program adds these amounts and also divides the sum by 100. this converts the cents value into euro. and gives the output telling the user what there total balance is, this output has a decimal sign between the euro and cent ensuring it is in the right format. to test this if you input amount one as 245 and amount 2 as 130. your result should be your name followed by your total balance 3.75 with the euro sign. to close off the problem I used another print statement to thank the user for using the balance calculator and outputting the users name.
+to solve this I first introduced the problem using a print statement to welcome the user to the balance calculator and asking the user to input there name as a variable.This variable is used again in the programme when recalling the total balance. I then set up two variables called amount 1 and amount 2. When the user inputs both of these amounts the program adds these amounts and also divides the sum by 100. This converts the cents value into euro and gives the output telling the user what there total balance is. this output has a decimal sign between the euro and cent ensuring it is in the right format. To test this if you input amount one as 245 and amount 2 as 130. Your result should be your name followed by your total balance 3.75 with the euro sign. To close off the problem I used another print statement to thank the user for using the balance calculator and outputting the users name.
 
 # references # 
 
@@ -43,7 +46,7 @@ this problem asked the following,
 Write a python program that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs) 
 to solve this I started by asking the user to enter a 10 digit number. that created a string from the the input. 
 # <p>
-I then created another string and then used [-4:] this would splice the first 6 numbers from the account number. to test this I used the following the sequence enter your 10 digit account number: 2345678910
+I then created another string and then used [-4:] this would splice the first 6 numbers from the account number. To test this I used the following the sequence enter your 10 digit account number: 2345678910
 I then used a test print statement to print the last 6 digits. which gave me 8910.
 I then printed  6 x's with the string{final} to display the final four digits as xxxxxx8901 
 
@@ -58,9 +61,9 @@ https://www.pythontutorial.net/advanced-python/python-slicing/
 
  this programme asked the following,
  
-  Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation. Have the program end if the current value is one
+  Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation. You have the program end if the current value is one
  # <p>
-"The Collatz conjecture is a conjecture that a particular sequence always reaches 1. my program checks for a postive number to be entered. if the user does not enter a postive number the program will throw an exception. 
+"The Collatz conjecture is a conjecture that a particular sequence always reaches 1. My programme checks for a postive number to be entered. If the user does not enter a postive number the program will throw an exception. 
 # <p>
 I used the number 34 as the first test integer so the sequence the sequence ran as 34 17 52 26 13 40n 20 10 5 16 8 4 2 1. 
 I then used the number 9 to test this sequence. the sequence ran as follows 9 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
@@ -77,7 +80,7 @@ https://youtu.be/tYQCfYqFa4E
 
 #  problem 5 data structures weekday #
 
-this programme will output whether the current day is a weekday or not. To do this I imported the date time module in python, this module gets the current date and time, it will then get the current day and print weather it is a weekday or a weekend. 
+This programme will output whether the current day is a weekday or not. To do this I imported the date time module in python, this module gets the current date and time, it will then get the current day and print whether it is a weekday or a weekend. 
 
 # references # 
 
@@ -90,12 +93,12 @@ https://stackoverflow.com/questions/16348815/python-assigning-multiple-variables
 
 #  problem 6 functions sqaure root #
 
-this program asked to write a program that takes a positive floating-point number as input and outputs an approximation of its square root. 
+This programme asked to write a programme that takes a positive floating-point number as input and outputs an approximation of its square root. 
 
 # <p>
 I first asked the user for the input and converted it to a float.
 
-I then made a function, which takes the number and got an approximate estimation of the square root by diving it in half.
+I then made a function, which takes the number and got an approximate estimation of the square root by dividng it in half.
 
 I then got a better approximation of the Square Root by using Newton's method: (0.5 * (approx + (num/approx)))
 
@@ -142,11 +145,11 @@ create a program that creates a histogram plot using python.
 
 # <p>
 
-to begin this task I downloaded the numpy module this is a library that is used for working with arrays. and I also downloaded the matplotlib module. this is used for the visualisation of arrays. 
+To begin this task I downloaded the numpy module this is a library that is used for working with arrays. I also downloaded the matplotlib module. This is used for the visualisation of arrays. 
 
 # <p> 
 
- I created a histogram from the numbers the program randomly generates. As it follows, the values in the brackets are the mean, standard deviation and number of values. Once the histogram is made, the function h(x) = x ^ 3 is plotted on the same graph. The function ranges from 1 to 10. using numpy 
+ I created a histogram from the numbers the program randomly generates. As it follows, the values in the brackets are the mean, standard deviation and number of values. Once the histogram is made, the function h(x) = x ^ 3 is plotted on the same graph. The function ranges from 1 to 10. using numpy. LP
 
  # <p>
 
