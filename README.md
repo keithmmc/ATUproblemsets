@@ -13,11 +13,7 @@
 #  problem 1 print hello world #
 
 
-this is  the first piece of code people learn when starting to code, in order to make this code do a little bit more I added a variable called input that asks for the user name
-what is your name 
-what is your name keith 
-this will then been displayed with hello world 
-helloworld  keith
+the main idea of this problem was to commit to github along with a simple print hello world statement. this is  the first piece of code people learn when starting to code, in order to make this code do a little bit more I added a variable called input that asks for the user name it then printed this with hello world. 
 
 # references #
 https://github.com/git-guides/git-commit
@@ -25,10 +21,6 @@ https://github.com/git-guides/git-commit
 #  problem 2 bank statements #
 
 the program should:
-
-The program should:
-
-
 
 Prompt the user and read in two money amounts (in cent)
 Add the two amounts
