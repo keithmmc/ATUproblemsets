@@ -23,9 +23,9 @@ https://github.com/git-guides/git-commit
 
 #  problem 2 bank statements #
 
-the program should:
+the program asked the following:
 
-Prompt the user and read in two money amounts (in cent)
+Prompt a user and read in two money amounts (in cent)
 Add the two amounts
 Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
 
@@ -41,7 +41,7 @@ https://python.land/python-data-types/python-float
 
 #  problem 3 account number state  variables #
 
-this problem asked the following, 
+this problem asked the following:
 
 Write a python program that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs) 
 to solve this I started by asking the user to enter a 10 digit number. that created a string from the the input. 
@@ -59,7 +59,7 @@ https://www.pythontutorial.net/advanced-python/python-slicing/
  
  #  Problem Number 4 controlling the flow #
 
- this programme asked the following,
+ this programme asked the following:
  
   Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation. You have the program end if the current value is one
  # <p>
@@ -80,7 +80,8 @@ https://youtu.be/tYQCfYqFa4E
 
 #  problem 5 data structures weekday #
 
-This programme will output whether the current day is a weekday or not. To do this I imported the date time module in python, this module gets the current date and time, it will then get the current day and print whether it is a weekday or a weekend. 
+This programme asked the following: 
+output whether the current day is a weekday or not. To do this I imported the date time module in python, this module gets the current date and time, it will then get the current day and print whether it is a weekday or a weekend. 
 
 # references # 
 
@@ -93,7 +94,7 @@ https://stackoverflow.com/questions/16348815/python-assigning-multiple-variables
 
 #  problem 6 functions sqaure root #
 
-This programme asked to write a programme that takes a positive floating-point number as input and outputs an approximation of its square root. 
+This programme asked the following write a programme that takes a positive floating-point number as input and outputs an approximation of its square root. 
 
 # <p>
 I first asked the user for the input and converted it to a float.
@@ -117,7 +118,9 @@ https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 
 # 7 files reading the occurances of e in a file #
 
-Write a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here
+Thia program asked 
+
+Create a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here
 
 
 # <p>
@@ -140,6 +143,8 @@ https://www.delftstack.com/howto/python/occurrences-of-a-character-in-a-string-i
 https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
 https://www.sanfoundry.com/python-program-read-file-counts-number/
 # week 8 plots 
+
+this program asked the following: 
 
 create a program that creates a histogram plot using python. 
 
